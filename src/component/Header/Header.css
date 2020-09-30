@@ -18,15 +18,16 @@
 .header__input {
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 40vw;
     border: 1px solid #000;
 }
 
 .header__inputButton {
-    width: 50px !important;
+    width: 4vw !important;
     background: #f0f0f0;
     border-left: 1px solid lightgray;
     color: gray;
+    display: flex !important;
 }
 
 .header__input > input {
