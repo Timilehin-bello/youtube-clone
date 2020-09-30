@@ -27,7 +27,6 @@
     background: #f0f0f0;
     border-left: 1px solid lightgray;
     color: gray;
-    display: flex !important;
 }
 
 .header__input > input {
