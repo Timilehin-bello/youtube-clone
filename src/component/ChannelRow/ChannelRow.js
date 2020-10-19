@@ -5,6 +5,7 @@ import "./ChannelRow.css";
 
 function ChannelRow(props) {
   const { image, verified, subs, noOfVideos, description, channel } = props;
+  console.log(channel);
   return (
     <div className="channelRow">
       <Avatar className="channelRow__logo" alt={channel} src={image} />
